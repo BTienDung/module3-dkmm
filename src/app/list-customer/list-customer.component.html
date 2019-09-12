@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let customer of customers "
+      (click)="selectCustomer(customer)"
+  >
+    <p>{{customer.id}} {{customer.age}} {{customer.name}} {{customer.address}}</p>
+  </li>
+</ul>

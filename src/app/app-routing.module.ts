@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import {DetailCustomerComponent} from './detail-customer/detail-customer.component';
 
 
 const routes: Routes = [];
